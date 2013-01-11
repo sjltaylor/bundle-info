@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require 'bundler'
+require 'pp'
+
+gems = Bundler.load.specs.sort_by{|s| s.name}
+
+gems.each do |gem|
+  puts "#{gem.name} (#{gem.version}): #{gem.homepage}\n\t#{gem.summary}\n\n"
+end
