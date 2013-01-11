@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = Bundle::Info::VERSION
   gem.authors       = ["Sam Taylor"]
   gem.email         = ["sjltaylor@gmail.com"]
-  gem.description   = %q{get detail on a Gemfile}
+  gem.description   = %q{List the name, summary and homepage of gems from  Gemfile}
   gem.summary       = gem.description
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/sjltaylor/bundle-info"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }

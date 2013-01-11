@@ -2,6 +2,10 @@
 
 Gives you the `bundle-info` command which reports the name, homepage and descriptions of all the gems in the current directories Gemfile. Useful when investigating unfamiliar codebases
 
+# Usage
+
+Install: `gem install bundle-info`
+Use: `bundle-info` in some directory with a gemfile, like a rails app.
 
 ## Contributing
 
